@@ -1,46 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
 
+body{
+    font-family: 'Playfair Display', serif;
+    color: #444;
+}
+
+/*Diseño de la pagina principal (home)*/
 body.home{
     background-image: url("../img/fondo.jpg");
-    
-    font-family: Arial, Helvetica, sans-serif;
-    
+    background-attachment: fixed;  
 }
 
 .principal{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 12mm;
+    font-size: 15mm;
     font-weight: bold;
     text-align: center;
     color: rgb(54, 53, 52);
     line-height: 1mm;
 }
-h3{
-    font-style: italic; 
-}
-
-h2{
-    font-style: italic;
-    background-color: rgb(201, 201, 199);   
-}
-
-h1.limon{
-    background-color:rgb(242, 219, 15);
-    font-size: 10mm;
-}
-h1.carrot{
-    background-color: rgb(232, 95, 9);
-    font-size: 10mm;
-}
-
-
-.menu{
-    width: 80%;
-    border-radius:20px;    
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 0.8;
-}
-
 
 div.opciones{
     text-align: center;
@@ -51,14 +28,6 @@ div.opciones{
     font-style: italic;
     font-size: 8mm;
     line-height: 1mm;
-}
-
-.imagen{
-    display: block;
-    width: 70%;
-    border-radius:20px;    
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .espacio{
@@ -72,3 +41,46 @@ div.opciones{
     margin-left: 13%;
     margin-right: auto;
 }
+
+.menu{
+    width: 80%;
+    border-radius:20px;    
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+}
+
+
+/*Diseño de los diferentes html*/
+.encabezado1{
+    width: 100%; height: 400px;
+    background-image: url("../img/lemon-background.png");
+    background-repeat: round;
+}
+.encabezado2{
+    width: 100%; height: 400px;
+    background-image: url("../img/imagen-carrot.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+/*Estilos de los titulos*/
+h3{     font-style: italic;
+color: black
+ }
+ 
+h2{     font-style: italic;
+color: black
+  }
+
+h1{ font-family: 'Playfair Display', serif;
+    font-size: 15mm;
+    color: white;
+}
+p{  font-family: 'Playfair Display', serif;;
+    font-size: 5mm;
+    color: white;
+}
+
